@@ -1,6 +1,6 @@
 package com.vibha_avi.one;
 
-public class HelloVibha {
+public class A001_HelloVibha {
 
 	public static void main(String[] args) {
 		
