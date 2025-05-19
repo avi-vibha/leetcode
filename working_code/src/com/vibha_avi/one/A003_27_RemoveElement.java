@@ -1,6 +1,6 @@
 package com.vibha_avi.one;
 
-public class A004_27_RemoveElement {
+public class A003_27_RemoveElement {
 
 	public static void main(String[] args) {
 		

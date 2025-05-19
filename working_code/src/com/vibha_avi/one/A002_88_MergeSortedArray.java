@@ -1,6 +1,6 @@
 package com.vibha_avi.one;
 
-public class A003_88_MergeSortedArray {
+public class A002_88_MergeSortedArray {
 
 	public static void main(String[] args) {
 		
