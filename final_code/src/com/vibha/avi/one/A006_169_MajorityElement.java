@@ -30,6 +30,27 @@ package com.vibha.avi.one;
 
 public class A006_169_MajorityElement {
 
+    public static void main(String[] args) {
+
+        int [] nums = {2,2,1,1,1,2,2};
+
+        A006_169_MajorityElement obj = new A006_169_MajorityElement();
+        System.out.println(obj.majorityElement(nums));
+    }
+
+    public int majorityElement(int[] nums) {
+		int candidate = -1;
+        int count = 0;
+		
+		for (int num : nums) {
+            if (count == 0) {
+                candidate = num;
+            }
+            count += (num == candidate) ? 1 : -1;
+        }
+        return candidate;
+
+    }
 }
 
 
